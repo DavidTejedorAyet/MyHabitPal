@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DMSans.ttf</string>
+		<string>DMSans-Italic.ttf</string>
+		<string>GRAPHIK-THIN.OTF</string>
+		<string>GRAPHIK-THINITALIC.OTF</string>
+		<string>GRAPHIK-SUPER.OTF</string>
+		<string>GRAPHIK-SEMIBOLD.OTF</string>
+		<string>GRAPHIK-SEMIBOLDITALIC.OTF</string>
+		<string>GRAPHIK-SUPERITALIC.OTF</string>
+		<string>GRAPHIK-REGULAR.OTF</string>
+		<string>GRAPHIK-REGULARITALIC.OTF</string>
+		<string>GRAPHIK-MEDIUM.OTF</string>
+		<string>GRAPHIK-MEDIUMITALIC.OTF</string>
+		<string>GRAPHIK-LIGHT.OTF</string>
+		<string>GRAPHIK-LIGHTITALIC.OTF</string>
+		<string>GRAPHIK-EXTRALIGHT.OTF</string>
+		<string>GRAPHIK-EXTRALIGHTITALIC.OTF</string>
+		<string>GRAPHIK-BOLD.OTF</string>
+		<string>GRAPHIK-BOLDITALIC.OTF</string>
+		<string>GRAPHIK-BLACK.OTF</string>
+		<string>GRAPHIK-BLACKITALIC.OTF</string>
+	</array>
+</dict>
+</plist>
