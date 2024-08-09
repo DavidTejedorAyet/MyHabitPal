@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>quicksand.ttf</string>
 		<string>DMSans.ttf</string>
 		<string>DMSans-Italic.ttf</string>
 		<string>GRAPHIK-THIN.OTF</string>

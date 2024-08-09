@@ -15,7 +15,7 @@ struct HomeView: View {
 
     var body: some View {
         ZStack {
-            emptyComponent
+            
         }
         .onAppear {
             viewModel.onAppear()
@@ -31,3 +31,4 @@ struct HomeView_Previews: PreviewProvider {
         HomeView()
     }
 }
+

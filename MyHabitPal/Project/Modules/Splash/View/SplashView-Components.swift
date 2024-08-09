@@ -10,9 +10,14 @@
 import SwiftUI
 
 extension SplashView {
-    var emptyComponent: some View {
-        ZStack {
-            Text("SplashView")
-        }
+    var logo: some View {
+        Image("logo")
+			.imageStyle(width: 180, height: 180)
     }
+
+	var title: some View {
+		Text("MyHabitPal")
+			.stroke(color: .greyLogo, width: 7)
+			.textStyle(font: .quicksand(size: 60, weight: .bold),color: .white)
+	}
 }

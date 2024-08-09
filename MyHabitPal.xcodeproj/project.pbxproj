@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6307992F2C654E6E001F8514 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307992E2C654E6E001F8514 /* TextExtension.swift */; };
+		630799312C655147001F8514 /* quicksand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 630799302C655147001F8514 /* quicksand.ttf */; };
 		632FEADC2C63F4DB00AAAE26 /* MyHabitPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FEADB2C63F4DB00AAAE26 /* MyHabitPalApp.swift */; };
 		632FEAE02C63F4DD00AAAE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632FEADF2C63F4DD00AAAE26 /* Assets.xcassets */; };
 		632FEAE32C63F4DD00AAAE26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632FEAE22C63F4DD00AAAE26 /* Preview Assets.xcassets */; };
@@ -93,6 +95,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6307992E2C654E6E001F8514 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		630799302C655147001F8514 /* quicksand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = quicksand.ttf; sourceTree = "<group>"; };
 		632FEAD82C63F4DB00AAAE26 /* MyHabitPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabitPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		632FEADB2C63F4DB00AAAE26 /* MyHabitPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHabitPalApp.swift; sourceTree = "<group>"; };
 		632FEADF2C63F4DD00AAAE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -362,6 +366,7 @@
 		633815C62C63F5EA0020DDAE /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				630799302C655147001F8514 /* quicksand.ttf */,
 				633815C52C63F5EA0020DDAE /* Graphik */,
 			);
 			path = Fonts;
@@ -394,6 +399,7 @@
 				633816982C63F5EA0020DDAE /* DictionaryExtension.swift */,
 				633816992C63F5EA0020DDAE /* FloatExtension.swift */,
 				6338169A2C63F5EA0020DDAE /* FontExtension.swift */,
+				6307992E2C654E6E001F8514 /* TextExtension.swift */,
 				6338169D2C63F5EA0020DDAE /* StringExtension.swift */,
 				6338169E2C63F5EA0020DDAE /* TimeZoneExtension.swift */,
 				6338169F2C63F5EA0020DDAE /* UIDeviceExtension.swift */,
@@ -621,6 +627,7 @@
 				633817252C63F5F00020DDAE /* GRAPHIK-SEMIBOLD.OTF in Resources */,
 				6338171F2C63F5F00020DDAE /* GRAPHIK-LIGHT.OTF in Resources */,
 				633817282C63F5F00020DDAE /* GRAPHIK-SUPERITALIC.OTF in Resources */,
+				630799312C655147001F8514 /* quicksand.ttf in Resources */,
 				633817202C63F5F00020DDAE /* GRAPHIK-LIGHTITALIC.OTF in Resources */,
 				6338171A2C63F5F00020DDAE /* GRAPHIK-BLACKITALIC.OTF in Resources */,
 				633817292C63F5F00020DDAE /* GRAPHIK-THIN.OTF in Resources */,
@@ -691,6 +698,7 @@
 				633817992C63F5F00020DDAE /* FontExtension.swift in Sources */,
 				633817952C63F5F00020DDAE /* DataExtension.swift in Sources */,
 				633817A62C63F5F00020DDAE /* Validator.swift in Sources */,
+				6307992F2C654E6E001F8514 /* TextExtension.swift in Sources */,
 				633816E22C63F5F00020DDAE /* BaseViewModel.swift in Sources */,
 				633817A72C63F5F00020DDAE /* AppDelegate.swift in Sources */,
 				6338179E2C63F5F00020DDAE /* UIDeviceExtension.swift in Sources */,

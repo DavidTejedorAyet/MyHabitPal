@@ -21,4 +21,8 @@ extension Font {
 		default: .custom("GRAPHIK-REGULAR", size: size) // 400
 		}
 	}
+
+	static func quicksand(size: CGFloat, weight: Weight = .regular) -> Font {
+		.custom("quicksand", size: size).weight(weight)
+	}
 }

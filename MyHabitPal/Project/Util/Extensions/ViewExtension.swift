@@ -21,4 +21,8 @@ extension View {
 			self
 		}
 	}
+
+	func stroke<S>(_ content: S, lineWidth: CGFloat) -> some View where S : ShapeStyle {
+		self.overlay(RoundedRectangle(cornerRadius: 4).strokeBorder(content, lineWidth: lineWidth))
+	}
 }
